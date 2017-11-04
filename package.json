@@ -1,0 +1,33 @@
+{
+  "name": "appium-webdriverio-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "nativeApp-test": "wdio config/native.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/cucumber": "^2.0.4",
+    "@types/node": "^8.0.47",
+    "@types/webdriverio": "^4.8.6",
+    "chai": "^4.1.2",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.8.0"
+  },
+  "dependencies": {
+    "appium": "^1.7.1",
+    "cucumber": "^2.3.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "wdio-cucumber2-framework": "0.0.4",
+    "wdio-jasmine-framework": "^0.3.2",
+    "webdriverio": "^4.8.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": false,
+      "declaration": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "removeComments": false,
+      "noImplicitAny": false,
+      "outDir": "typeScript",
+      "typeRoots": [ "./node_modules/@types" ],
+      "types": ["node","cucumber","webdriverio","chai"]
+  },
+  "exclude": [
+      "node_modules",
+      "typescript"
+  ]
+}
