@@ -4,14 +4,15 @@ Page Objects help in better re-usablitity and maintenance of element locators
 This file exports CalculatorPageObject class
 **/
 export class CalculatorPageObject {
-    public idLocator: string = 'com.android.calculator2:id/';
-    public digitLocator: string = 'com.android.calculator2:id/digit';
     public addOperator: string;
     public subtractOperator: string;
     public multiplyOperator: string;
     public divisionOperator: string;
     public equalOperator: string;
-    public outputText: string ='com.android.calculator2.CalculatorEditText'
+    public clearOperator: string;
+    public outputText: string ='com.android.calculator2.CalculatorEditText';
+    public idLocator: string = 'com.android.calculator2:id/';
+    public digitLocator: string = 'com.android.calculator2:id/digit';
   
     constructor() {
         this.addOperator = this.androidIDSelector(this.calcOperatorSelector('plus'));
@@ -19,6 +20,7 @@ export class CalculatorPageObject {
         this.multiplyOperator = this.androidIDSelector(this.calcOperatorSelector('mul'));
         this.divisionOperator = this.androidIDSelector(this.calcOperatorSelector('div'));
         this.equalOperator = this.androidIDSelector(this.calcOperatorSelector('equal'));
+        this.clearOperator = this.androidIDSelector(this.calcOperatorSelector('allClear'));
         this.outputText = this.androidClassSelector(this.outputText);
     }
 

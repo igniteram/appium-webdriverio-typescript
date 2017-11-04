@@ -8,7 +8,7 @@ const commandTimeout = 30 * 60000;
 exports.config = {
     debug: false,
     specs: [
-        './features/*.feature',
+        './features/google.feature',
     ],
 
     reporters: ['spec'],
@@ -24,11 +24,8 @@ exports.config = {
     capabilities: [
         {
             appiumVersion: '1.7.1',
-            browserName: "",
+            browserName: 'chrome',
             platformName: 'Android',
-            app: './app/LGCalculator.apk',
-            appPackage: 'com.android.calculator2',
-            appActivity: 'com.android.calculator2.Calculator',
             platformVersion: '5.1.1',
             deviceName: 'LGK3322fc71e93',
             waitforTimeout: waitforTimeout,
@@ -58,16 +55,13 @@ exports.config = {
     logLevel: 'silent',
     coloredLogs: true,
     //name of package is generated like wdio-<framework_name>-framework in source code of wdio runner
-    framework: 'cucumber2',
+    framework: 'cucumber',
     cucumberOpts: {
-        compiler: "ts:ts-node/register",
-        format: "json:./cucumber_report.json",
+        compiler: ['ts:ts-node/register'],
         backtrace: true,
         failFast: false,
         timeout: 5 * 60 * 60000,
-        require: [
-            './typeScript/stepDefinitions/steps.js'
-        ],
+        require: ['./stepDefinitions/googleSteps.ts']
     },
 
     /**
@@ -81,6 +75,10 @@ exports.config = {
         global.assert = chai.assert;
         global.should = chai.should();
         console.log('<<< TESTING STARTED >>>');
+    },
+
+    before: function (capabilities, specs) {
+        browser.url('http://www.google.com');
     },
 
     afterCommand: function (commandName, args, result, error) {
