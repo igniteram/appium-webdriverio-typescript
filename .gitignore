@@ -1,6 +1,5 @@
 node_modules/
 typeScript/
 reports/
-*.js
 .vscode
 *.log
