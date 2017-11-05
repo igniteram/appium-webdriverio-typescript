@@ -8,7 +8,7 @@ const commandTimeout = 30 * 60000;
 exports.config = {
     debug: false,
     specs: [
-        './features/google.feature',
+        './features/appium.feature',
     ],
 
     reporters: ['spec'],
@@ -61,7 +61,7 @@ exports.config = {
         backtrace: true,
         failFast: false,
         timeout: 5 * 60 * 60000,
-        require: ['./stepDefinitions/googleSteps.ts']
+        require: ['./stepDefinitions/appiumSteps.ts']
     },
 
     /**

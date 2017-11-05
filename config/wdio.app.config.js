@@ -24,7 +24,7 @@ exports.config = {
     capabilities: [
         {
             appiumVersion: '1.7.1',
-            browserName: "",
+            browserName: '',
             platformName: 'Android',
             app: './app/LGCalculator.apk',
             appPackage: 'com.android.calculator2',
