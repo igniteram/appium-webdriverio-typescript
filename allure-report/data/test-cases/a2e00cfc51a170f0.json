@@ -1,0 +1,131 @@
+{
+  "uid" : "a2e00cfc51a170f0",
+  "name" : "I verify the title of android tutorial page to be \"Native Android Automation\"",
+  "fullName" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page.I verify the title of android tutorial page to be \"Native Android Automation\"",
+  "historyId" : "35e4686afe91736e0b5a45beb9fd5596",
+  "time" : {
+    "start" : 1509894632672,
+    "stop" : 1509894633168,
+    "duration" : 496
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/element",
+      "time" : {
+        "start" : 1509894632678,
+        "stop" : 1509894632845,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95d8de4ef1016e63",
+        "name" : "Request",
+        "source" : "95d8de4ef1016e63.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "79ee174165c8ffd3",
+        "name" : "Response",
+        "source" : "79ee174165c8ffd3.json",
+        "type" : "application/json",
+        "size" : 141
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/element/0.19646019905521217-1/text",
+      "time" : {
+        "start" : 1509894632878,
+        "stop" : 1509894633151,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d014de82f2febe31",
+        "name" : "Response",
+        "source" : "d014de82f2febe31.json",
+        "type" : "application/json",
+        "size" : 118
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/screenshot",
+      "time" : {
+        "start" : 1509894633177,
+        "stop" : 1509894633621,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc9d6f9b47a8057b",
+        "name" : "Screenshot",
+        "source" : "dc9d6f9b47a8057b.png",
+        "type" : "image/png",
+        "size" : 61261
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the title of android tutorial page to be \"Native Android Automation\""
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2e00cfc51a170f0.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

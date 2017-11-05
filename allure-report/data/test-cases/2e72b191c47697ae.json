@@ -1,0 +1,110 @@
+{
+  "uid" : "2e72b191c47697ae",
+  "name" : "I click on top menu button",
+  "fullName" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page.I click on top menu button",
+  "historyId" : "ade0781c5a1ca59acd44c1472c736987",
+  "time" : {
+    "start" : 1509894622029,
+    "stop" : 1509894622776,
+    "duration" : 747
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/element",
+      "time" : {
+        "start" : 1509894622029,
+        "stop" : 1509894622205,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f7039e8f7e9cd00",
+        "name" : "Request",
+        "source" : "7f7039e8f7e9cd00.json",
+        "type" : "application/json",
+        "size" : 105
+      }, {
+        "uid" : "9549c8b706acc6e6",
+        "name" : "Response",
+        "source" : "9549c8b706acc6e6.json",
+        "type" : "application/json",
+        "size" : 141
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/element/0.46309325624827746-1/click",
+      "time" : {
+        "start" : 1509894622210,
+        "stop" : 1509894622747,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4891998d56ede1ac",
+        "name" : "Response",
+        "source" : "4891998d56ede1ac.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on top menu button"
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e72b191c47697ae.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

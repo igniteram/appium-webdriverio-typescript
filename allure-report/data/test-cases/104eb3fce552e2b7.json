@@ -1,0 +1,131 @@
+{
+  "uid" : "104eb3fce552e2b7",
+  "name" : "the result \"3\" should be displayed",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Divide two numbers.the result \"3\" should be displayed",
+  "historyId" : "f643dc172645107056f8d72dd95607d5",
+  "time" : {
+    "start" : 1509894535523,
+    "stop" : 1509894536240,
+    "duration" : 717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/41735c98-c9c5-4e53-9ab5-bf072fcd86cd/elements",
+      "time" : {
+        "start" : 1509894535525,
+        "stop" : 1509894536193,
+        "duration" : 668
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6e80bad7f468a98",
+        "name" : "Request",
+        "source" : "d6e80bad7f468a98.json",
+        "type" : "application/json",
+        "size" : 130
+      }, {
+        "uid" : "5cb848ee52a16b98",
+        "name" : "Response",
+        "source" : "5cb848ee52a16b98.json",
+        "type" : "application/json",
+        "size" : 146
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/41735c98-c9c5-4e53-9ab5-bf072fcd86cd/element/21/text",
+      "time" : {
+        "start" : 1509894536195,
+        "stop" : 1509894536235,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4d4e685118148b",
+        "name" : "Response",
+        "source" : "e4d4e685118148b.json",
+        "type" : "application/json",
+        "size" : 112
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/41735c98-c9c5-4e53-9ab5-bf072fcd86cd/screenshot",
+      "time" : {
+        "start" : 1509894536242,
+        "stop" : 1509894536794,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "552f83be65c43de2",
+        "name" : "Screenshot",
+        "source" : "552f83be65c43de2.png",
+        "type" : "image/png",
+        "size" : 107554
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"3\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "104eb3fce552e2b7.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

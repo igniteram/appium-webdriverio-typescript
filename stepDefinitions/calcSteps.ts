@@ -9,28 +9,28 @@ Given(/^I am on my mobile calculator app$/, () => {
     expect(title).to.equal('Calculator');
 });
 
-When(/^I add "(.*?)" and "(.*?)"$/,  (num1: string,num2:string) => {
+When(/^I add "(.*?)" and "(.*?)"$/,  (num1: string, num2: string) => {
     browser.click(calc.calcDigitSelector(num1));
     browser.click(calc.addOperator);
     browser.click(calc.calcDigitSelector(num2));
     browser.click(calc.equalOperator);
 });
 
-When(/^I subtract "(.*?)" from "(.*?)"$/,  (num1: string,num2:string) => {
+When(/^I subtract "(.*?)" from "(.*?)"$/,  (num1: string, num2: string) => {
     browser.click(calc.calcDigitSelector(num1));
     browser.click(calc.subtractOperator);
     browser.click(calc.calcDigitSelector(num2));
     browser.click(calc.equalOperator);
 });
 
-When(/^I multiply "(.*?)" with "(.*?)"$/,  (num1: string,num2:string) => {
+When(/^I multiply "(.*?)" with "(.*?)"$/,  (num1: string, num2: string) => {
     browser.click(calc.calcDigitSelector(num1));
     browser.click(calc.multiplyOperator);
     browser.click(calc.calcDigitSelector(num2));
     browser.click(calc.equalOperator);
 });
 
-When(/^I divide "(.*?)" with "(.*?)"$/,  (num1: string,num2:string) => {
+When(/^I divide "(.*?)" with "(.*?)"$/,  (num1: string, num2: string) => {
     browser.click(calc.calcDigitSelector(num1));
     browser.click(calc.divisionOperator);
     browser.click(calc.calcDigitSelector(num2));

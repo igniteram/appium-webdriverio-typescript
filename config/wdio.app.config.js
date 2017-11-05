@@ -11,9 +11,11 @@ exports.config = {
         './features/calculator.feature',
     ],
 
-    reporters: ['spec'],
+    reporters: ['allure','spec'],
     reporterOptions: {
-        outputDir: './output/reports'
+        allure: {
+            outputDir: './allure-results/'
+        }
     },
 
     host: host,
@@ -71,21 +73,14 @@ exports.config = {
      * hooks
      */
     onPrepare: function () {
-
-        const chai = require('chai');
-
-        global.expect = chai.expect;
-        global.assert = chai.assert;
-        global.should = chai.should();
-        console.log('<<< TESTING STARTED >>>');
+        console.log('<<< NATIVE APP TESTS STARTED >>>');
     },
 
-    afterCommand: function (commandName, args, result, error) {
+    afterScenario: function (scenario) {
         browser.screenshot();
-    },
+     },
 
     onComplete: function () {
-
         console.log('<<< TESTING FINISHED >>>');
     }
 

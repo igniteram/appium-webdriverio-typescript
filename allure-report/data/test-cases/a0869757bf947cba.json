@@ -1,0 +1,104 @@
+{
+  "uid" : "a0869757bf947cba",
+  "name" : "I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\"",
+  "fullName" : "To search appium in google & verify appium webpage Navigate to appium's official website.I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\"",
+  "historyId" : "1b2fc6c4852fd16d920aa53157ff4999",
+  "time" : {
+    "start" : 1509894621370,
+    "stop" : 1509894621429,
+    "duration" : 59
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/title",
+      "time" : {
+        "start" : 1509894621374,
+        "stop" : 1509894621421,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e42dbbc4ff52701",
+        "name" : "Response",
+        "source" : "3e42dbbc4ff52701.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/0847c48b-38f0-4a6e-bcd6-83836a0bfc62/screenshot",
+      "time" : {
+        "start" : 1509894621435,
+        "stop" : 1509894622012,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48c0ad18cbc5c51a",
+        "name" : "Screenshot",
+        "source" : "48c0ad18cbc5c51a.png",
+        "type" : "image/png",
+        "size" : 129092
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testClass",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the title of the page to be \"Appium: Mobile App Automation Made Awesome.\""
+  }, {
+    "name" : "package",
+    "value" : "To search appium in google & verify appium webpage Navigate to appium's official website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0869757bf947cba.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

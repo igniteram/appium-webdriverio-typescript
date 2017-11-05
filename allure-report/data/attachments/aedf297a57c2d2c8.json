@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#bs-example-navbar-collapse-1 > ul > li:nth-child(7) > a"
+}

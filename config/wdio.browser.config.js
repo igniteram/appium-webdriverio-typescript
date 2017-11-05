@@ -11,15 +11,19 @@ exports.config = {
         './features/appium.feature',
     ],
 
-    reporters: ['spec'],
+    reporters: ['allure','spec'],
     reporterOptions: {
-        outputDir: './output/reports'
+        allure: {
+            outputDir: 'allure-results'
+        }
     },
 
     host: host,
     port: port,
 
     maxInstances: 1,
+
+    baseUrl: 'http://www.google.com',
 
     capabilities: [
         {
@@ -68,21 +72,15 @@ exports.config = {
      * hooks
      */
     onPrepare: function () {
-
-        const chai = require('chai');
-
-        global.expect = chai.expect;
-        global.assert = chai.assert;
-        global.should = chai.should();
-        console.log('<<< TESTING STARTED >>>');
+        console.log('<<< BROWSER TESTS STARTED >>>');
     },
 
     before: function (capabilities, specs) {
-        browser.url('http://www.google.com');
+        browser.url(this.baseUrl);
     },
 
-    afterCommand: function (commandName, args, result, error) {
-        browser.screenshot();
+    afterScenario: function (scenario) {
+       browser.screenshot();
     },
 
     onComplete: function () {

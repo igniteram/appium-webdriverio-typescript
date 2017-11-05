@@ -1,0 +1,141 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "time" : {
+      "start" : 1509894490888,
+      "stop" : 1509894633168,
+      "duration" : 142280,
+      "minDuration" : 55,
+      "maxDuration" : 22765,
+      "sumDuration" : 95281
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"appiumVersion\":\"1.7.1\",\"browserName\":\"\",\"platformName\":\"Android\",\"app\":\"./app/LGCalculator.apk\",\"appPackage\":\"com.android.calculator2\",\"appActivity\":\"com.android.calculator2.Calculator\",\"platformVersion\":\"5.1.1\",\"deviceName\":\"LGK3322fc71e93\",\"waitforTimeout\":1800000,\"commandTimeout\":1800000,\"newCommandTimeout\":1800000}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"/home/ram/coding/appium-webdriverio-typescript/features/calculator.feature\"]" ],
+    "name" : "spec files"
+  } ],
+  "suites" : {
+    "total" : 8,
+    "items" : [ {
+      "uid" : "8308aec4dca90995d14e45cf9d62f308",
+      "name" : "To search appium in google & verify appium webpage Appium Google Search",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "6ffdd06368855d542d0caf691104d245",
+      "name" : "To search appium in google & verify appium webpage Navigate & verify appium tutorial page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "cd8a3ca26596d4658f0c317c93d723cd",
+      "name" : "To test the add & subtract feature of mobile calculator app Add two numbers",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "98cff22905c2689ce79f4df2f84f9878",
+      "name" : "To test the add & subtract feature of mobile calculator app Clear the text",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "852686dd0f5a2e38dd4718ea332e1d5d",
+      "name" : "To search appium in google & verify appium webpage Navigate to appium's official website",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "e92200abcbb1e8d1e7eb6ce5bb1d55cc",
+      "name" : "To test the add & subtract feature of mobile calculator app Subtract two numbers",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "01b8bfc04ec2a9b51abb5b6c4114339d",
+      "name" : "To test the add & subtract feature of mobile calculator app Multiply two numbers",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "6fc83cefe7271beebdcc70fe2673f342",
+      "name" : "To test the add & subtract feature of mobile calculator app Divide two numbers",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    }
+  } ],
+  "behaviors" : {
+    "total" : 23,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

@@ -1,0 +1,4 @@
+{
+    "using": "-android uiautomator",
+    "value": "new UiSelector().resourceId(\"com.android.calculator2:id/mul\")"
+}
