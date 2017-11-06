@@ -3,11 +3,11 @@
 <i><strong>Test framework for automating mobile apps with appium using webdriverio &amp; typescript!</strong></i>
  
 - [About](#about)
-- [Getting Started](#gettting-started)
+- [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Writing Tests](#tests)
+- [Writing Tests](#writing-tests)
 - [Page Objects](#page-objects)
-- [Finding Elements](#find-elements)
+- [Finding Elements](#finding-elements)
 - [Reports](#reports)
 
 ## About
