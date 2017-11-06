@@ -1,4 +1,0 @@
-{
-    "using": "-android uiautomator",
-    "value": "new UiSelector().className(\"com.android.calculator2.CalculatorEditText\")"
-}
