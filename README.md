@@ -3,11 +3,11 @@
 <i><strong>Test framework for automating mobile apps with appium using webdriverio &amp; typescript!</strong></i>
  
 - [About](#about)
-- [Getting Started](#getStarted)
+- [Getting Started](#gettting-started)
 - [Installation](#installation)
 - [Writing Tests](#tests)
-- [Page-Objects](#pageObjects)
-- [Finding-Elements](#findElements)
+- [Page Objects](#page-objects)
+- [Finding Elements](#find-elements)
 - [Reports](#reports)
 
 ## About
@@ -19,9 +19,9 @@ The tests run both on **Android Native App** and **Mobile Browser**. Chrome brow
 ### Tech Stack
 
 * [Appium]() - This is the node server which interacts with the mobile devices
-* [WebdriverIO]() -
-* [Typescript(Javascript)]() - 
-* [Cucumber]() -
+* [WebdriverIO](http://webdriver.io/) - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
+* [Typescript(Javascript)](https://www.typescriptlang.org/) - It is the superset of javascript which has additional static typings and features like JAVA and other languaes. Now you could write your code with compiles to pure javascript.
+* [Cucumber](https://cucumber.io/) - The popular BDD test framework which helps us write automated tests. 
 
 ## Getting Started
 
@@ -148,7 +148,7 @@ Given(/^I am on my mobile calculator app$/, () => {
     expect(title).to.equal('Calculator');
 });
 ```
-## Page-Objects
+## Page Objects
 
 This framework is strictly written using page-object design pattern.
 
