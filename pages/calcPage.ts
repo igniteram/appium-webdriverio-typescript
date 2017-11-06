@@ -1,7 +1,8 @@
-/*
-Page Objects help in better re-usablitity and maintenance of element locators
-This file exports CalculatorPageObject class
-**/
+/**
+ * Page Objects help in better re-usablitity and maintenance of element locators.
+ * This file exports CalculatorPageObject class
+ */
+
 export class CalculatorPageObject {
     public addOperator: string;
     public subtractOperator: string;

@@ -20,7 +20,7 @@ The tests run both on **Android Native App** and **Mobile Browser**. Chrome brow
 
 * [Appium]() - This is the node server which interacts with the mobile devices
 * [WebdriverIO](http://webdriver.io/) - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
-* [Typescript(Javascript)](https://www.typescriptlang.org/) - It is the superset of javascript which has additional static typings and features like JAVA and other languaes. Now you could write your code with compiles to pure javascript.
+* [Typescript(Javascript)](https://www.typescriptlang.org/) - It is the superset of javascript which has additional static typings and features like JAVA and other languaes. Now you could write your code which compiles to pure javascript.
 * [Cucumber](https://cucumber.io/) - The popular BDD test framework which helps us write automated tests. 
 
 ## Getting Started

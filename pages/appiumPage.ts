@@ -1,3 +1,8 @@
+/**
+ * Page Objects help in better re-usablitity and maintenance of element locators.
+ * This file exports GooglePageObject & AppiumPageObject classes
+ */
+
 class GooglePageObject {
     public get searchTextBox(): any { return browser.element('#lst-ib'); }
     public get searchButton(): any { return browser.element('button[name="btnG"]'); }

@@ -1,6 +1,11 @@
+/**
+ * WebdriverIO config file to run tests on native mobile apps.
+ * Config file helps us configure all the settings and setup environments 
+ * to run our tests.
+ */
 
-const host = '127.0.0.1';
-const port = 4730;
+const host = '127.0.0.1';   // default appium host
+const port = 4730;          // default appium port
 
 const waitforTimeout = 30 * 60000;
 const commandTimeout = 30 * 60000;
@@ -59,18 +64,18 @@ exports.config = {
      */
     logLevel: 'silent',
     coloredLogs: true,
-    //name of package is generated like wdio-<framework_name>-framework in source code of wdio runner
-    framework: 'cucumber',
+    framework: 'cucumber',          // cucumber framework specified 
     cucumberOpts: {
         compiler: ['ts:ts-node/register'],
         backtrace: true,
         failFast: false,
         timeout: 5 * 60 * 60000,
-        require: ['./stepDefinitions/calcSteps.ts']
+        require: ['./stepDefinitions/calcSteps.ts']      // importing/requiring step definition files
     },
 
     /**
-     * hooks
+     * hooks help us execute the repeatitive and common utilities 
+     * of the project.
      */
     onPrepare: function () {
         console.log('<<< NATIVE APP TESTS STARTED >>>');

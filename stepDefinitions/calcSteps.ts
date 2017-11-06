@@ -1,3 +1,9 @@
+/**
+ * Step Definitons are the glue code which drive
+ * the feature scenarios, Cucumber helps us provide
+ * gherkin language syntax's - Given, When, Then
+ */
+
 const {Given, When, Then} = require('cucumber');
 import {expect} from 'chai';
 import {CalculatorPageObject} from '../pages/calcPage';
