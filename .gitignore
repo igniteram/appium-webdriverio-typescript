@@ -1,3 +1,5 @@
+allure-results/
+allure-reports/
 node_modules/
 typeScript/
 reports/
