@@ -1,14 +1,19 @@
-# Appium-Webdriverio-Typescript
+<center>
+<h1>Appium-Webdriverio-Typescript</h1>
+</center>
 
-<i><strong>Test framework for automating mobile apps with appium using webdriverio &amp; typescript!</strong></i>
- 
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Writing Tests](#writing-tests)
-- [Page Objects](#page-objects)
-- [Finding Elements](#finding-elements)
-- [Reports](#reports)
+<p align="center">
+<img src= "./images/appium-webdriverio-typescript.png" height=300 alt="titleImage.png"/>
+</p>
+
+<p align="center">
+   <i><strong>Test framework for automating mobile apps with appium using webdriverio &amp; typescript!
+</strong></i>
+<p>
+
+---
+
+### <p align="center"> [About](#about) **|** [Getting Started](#getting-started) **|** [Installation](#installation) **|** [Writing Tests](#writing-tests) **|** [Page Objects](#page-objects) **|** [Finding Elements](#finding-elements) **|** [Reports](#reports)</p>
 
 ## About
 
@@ -49,7 +54,7 @@ https://nodejs.org/en/download/
 * Clone the repository into a folder
 * Go inside the folder and run following command from terminal/command prompt
 ```
-   npm install 
+npm install 
 ```
 * All the dependencies from package.json and typescript typings would be installed in node_modules folder.
 
