@@ -1,7 +1,3 @@
-<center>
-<h1>Appium-Webdriverio-Typescript</h1>
-</center>
-
 <p align="center">
 <img src= "./images/appium-webdriverio-typescript.png" height=300 alt="titleImage.png"/>
 </p>
