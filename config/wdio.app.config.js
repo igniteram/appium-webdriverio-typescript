@@ -30,13 +30,13 @@ exports.config = {
 
     capabilities: [
         {
-            appiumVersion: '1.7.1',                 // Appium module version
+            appiumVersion: '1.8.1',                 // Appium module version
             browserName: '',                        // browser name is empty for native apps
             platformName: 'Android',
             app: './app/LGCalculator.apk',          // Path to your native app
             appPackage: 'com.android.calculator2',  // Package name of your app
             appActivity: 'com.android.calculator2.Calculator', // App activity of the app
-            platformVersion: '5.1.1',              // Android platform version of the device
+            platformVersion: '7.1.1',              // Android platform version of the device
             deviceName: 'THF755e0384',              // device name of the mobile device
             waitforTimeout: waitforTimeout,
             commandTimeout: commandTimeout,
