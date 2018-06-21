@@ -32,11 +32,11 @@ exports.config = {
 
     capabilities: [
         {
-            appiumVersion: '1.7.1',
+            appiumVersion: '1.8.1',
             browserName: 'chrome',  // browser name should be specified
             platformName: 'Android',
-            platformVersion: '5.1.1',
-            deviceName: 'THF755e0384', // device name is mandatory
+            platformVersion: '7.1.1',
+            deviceName: 'A0001', // device name is mandatory
             waitforTimeout: waitforTimeout,
             commandTimeout: commandTimeout,
             newCommandTimeout: 30 * 60000,
