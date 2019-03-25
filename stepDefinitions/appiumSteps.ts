@@ -51,12 +51,12 @@ When(/^I click on tutorial link$/, () => {
 });
 
 Then(/^I click on android tutorial link$/, () => {
-    AppiumPage.androidLink.click();
+    AppiumPage.firstBook.click();
 });
 
 Then(/^I verify the title of android tutorial page to be "(.*?)"$/, (expectedTitle) => {
-    browser.waitUntil(() => {
-        const title = AppiumPage.androidTutorialTitle;
+    browser.waitUntil(async () => {
+        const title = await browser.getTitle();
         return title === expectedTitle;
     }, 5000, `expected url to be ${expectedTitle}`);
 });
