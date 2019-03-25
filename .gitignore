@@ -6,3 +6,4 @@ reports/
 .vscode
 *.log
 .DS_Store
+package-lock.json
