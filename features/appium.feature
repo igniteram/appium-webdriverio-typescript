@@ -18,4 +18,4 @@ Scenario: Navigate & verify appium tutorial page
 When I click on top menu button
 When I click on tutorial link
 Then I click on android tutorial link
-Then I verify the title of android tutorial page to be "Native Android Automation"
+Then I verify the title of android tutorial page to be "Mobile Test Automation with Appium | PACKT Books"

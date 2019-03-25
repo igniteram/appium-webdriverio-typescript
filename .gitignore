@@ -1,7 +1,8 @@
 allure-results/
-allure-reports/
+allure-report/
 node_modules/
 typeScript/
 reports/
 .vscode
 *.log
+.DS_Store
