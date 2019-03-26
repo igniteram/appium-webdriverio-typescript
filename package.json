@@ -1,6 +1,6 @@
 {
   "name": "appium-webdriverio-tests",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Test framework for automating mobile apps with appium using webdriverio & typescript!",
   "main": "index.js",
   "scripts": {
@@ -31,20 +31,20 @@
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/cucumber": "^4.0.4",
-    "@types/node": "^11.11.6",
-    "@types/webdriverio": "^5.0.0",
+    "@types/node": "^10.3.4",
+    "@types/webdriverio": "^4.10.2",
     "allure-commandline": "^2.5.0",
     "appium": "^1.8.1",
     "chai": "^4.1.2",
-    "cucumber": "^5.1.0",
+    "cucumber": "^4.2.1",
     "rimraf": "^2.6.2",
-    "ts-node": "^8.0.3",
+    "ts-node": "^6.1.1",
     "tslint": "^5.10.0",
-    "typescript": "^3.3.4000",
-    "wdio-allure-reporter": "^0.8.3",
+    "typescript": "^2.9.2",
+    "wdio-allure-reporter": "^0.6.2",
     "wdio-appium-service": "^0.2.3",
     "wdio-cucumber-framework": "^2.1.0",
     "wdio-spec-reporter": "^0.1.4",
-    "webdriverio": "^5.7.5"
+    "webdriverio": "^4.12.0"
   }
 }
